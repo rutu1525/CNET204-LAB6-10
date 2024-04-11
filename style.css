@@ -1,0 +1,39 @@
+/*
+  This comment
+  spans
+  multiple lines
+  */
+
+  /* This comment spans one line */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; /* Change this to your desired background color */
+    border-radius: 5px; /* Optional: add rounded corners */
+}
+nav ul li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+ nav ul li {
+        float: left;
+    }
+nav ul li a:hover:not(.active) {
+        background-color: #111111;
+        }
+nav ul li a.active {
+            background-color: #47ce1e;
+            color: #000000;
+            }  
+ nav ul li.right {
+                float: right;
+                } 
+ @media screen and (max-width: 600px){
+                    nav ul li.right,
+                    nav ul li {float: none;}
+                    }

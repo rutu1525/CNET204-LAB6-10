@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USER REGISTRATION</title>
+</head>
+<body>
+    <h1>USER REGISTRATION</h1>
+    <form action="/submit_form.php" method="POST">
+        <label for="first_name">First Name:</label><br>
+        <input type="text" id="first_name" name="first_name" required><br>
+        
+        <label for="last_name">Last Name:</label><br>
+        <input type="text" id="last_name" name="last_name" required><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        
+        <label for="password">Password:</label><br> <input type="password" id="password" name="password" required><br>
+        
+        <label for="dob">Date of Birth:</label><br>
+        <input required><br>
+        <label for="province">Province:</label><br>
+        <select id="province" name="province" required>
+            <option value="">Select</option>
+            <option value="province1">Province 1</option>
+            <option value="province2">Province 2</option>
+            <option value="province3">Province 3</option>
+            <!-- Add more options as needed -->
+        </select><br>
+        
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone"><br>
+        <br>
+        
+        <input type="submit" value="Submit">
+        <input type="Clear" value="Clear">
+    </form>
+</body>
+</html>
